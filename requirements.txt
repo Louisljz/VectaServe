@@ -1,0 +1,8 @@
+streamlit
+langchain
+openai
+html2text
+beautifulsoup4
+yt_dlp
+pydub
+tiktoken
