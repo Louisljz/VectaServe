@@ -13,4 +13,4 @@ api_key = st.text_input('API Key')
 
 if customer_id and corpus_id and api_key:
     st.session_state.vector_store = Vectara(customer_id, corpus_id, api_key)
-    st.info('Ensure you have entered the correct credentials, or else the CS bot cannot retrieve any information.')
+st.info('Ensure you have entered the correct credentials, or else the CS bot cannot retrieve any information.')
